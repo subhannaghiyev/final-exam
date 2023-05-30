@@ -1,0 +1,28 @@
+.footer {
+  padding-top: 100px;
+//   padding-bottom: 10px;
+  background-color: white;
+  margin-top: 50px;
+  border: 1px solid #e8e8e8;
+
+  .footer-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+
+    .p-footer {
+      color: #6b6d6f;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.32px;
+      border-top: 1px solid #e8e8e8;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .color {
+      color: #337ab7;
+    }
+  }
+}
